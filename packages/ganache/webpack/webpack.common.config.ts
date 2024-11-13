@@ -1,7 +1,9 @@
 import webpack from "webpack";
 import TerserPlugin from "terser-webpack-plugin";
 import { join } from "path";
+import dotenv from 'dotenv';
 
+dotenv.config();
 const VERSION = require(join(__dirname, "../package.json")).version;
 const CLI_VERSION = require(join(__dirname, "../../cli/package.json")).version;
 const CORE_VERSION = require(join(

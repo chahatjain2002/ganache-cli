@@ -1,12 +1,12 @@
 {
 	"name": "ganache",
-	"version": "7.9.1",
+	"version": "7.9.2",
 	"lockfileVersion": 2,
 	"requires": true,
 	"packages": {
 		"": {
 			"name": "ganache",
-			"version": "7.9.1",
+			"version": "7.9.2",
 			"license": "MIT",
 			"dependencies": {
 				"@trufflesuite/bigint-buffer": "1.1.10",
@@ -17,6 +17,7 @@
 				"abstract-level": "1.0.3",
 				"abstract-leveldown": "7.2.0",
 				"async-eventemitter": "0.2.4",
+				"dotenv": "^16.4.5",
 				"emittery": "0.10.0",
 				"keccak": "3.0.2",
 				"leveldown": "6.1.0",
@@ -1371,6 +1372,18 @@
 			"resolved": "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz",
 			"integrity": "sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==",
 			"dev": true
+		},
+		"node_modules/dotenv": {
+			"version": "16.4.5",
+			"resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.4.5.tgz",
+			"integrity": "sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==",
+			"license": "BSD-2-Clause",
+			"engines": {
+				"node": ">=12"
+			},
+			"funding": {
+				"url": "https://dotenvx.com"
+			}
 		},
 		"node_modules/electron-to-chromium": {
 			"version": "1.4.284",
@@ -4918,6 +4931,11 @@
 					"dev": true
 				}
 			}
+		},
+		"dotenv": {
+			"version": "16.4.5",
+			"resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.4.5.tgz",
+			"integrity": "sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg=="
 		},
 		"electron-to-chromium": {
 			"version": "1.4.284",

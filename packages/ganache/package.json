@@ -100,6 +100,7 @@
     "abstract-level": "1.0.3",
     "abstract-leveldown": "7.2.0",
     "async-eventemitter": "0.2.4",
+    "dotenv": "^16.4.5",
     "emittery": "0.10.0",
     "keccak": "3.0.2",
     "leveldown": "6.1.0",
@@ -110,6 +111,12 @@
     "utf-8-validate": "5.0.7"
   },
   "bundledDependencies": [
+    "@trufflesuite/bigint-buffer",
+    "keccak",
+    "leveldown",
+    "secp256k1"
+  ],
+  "bundleDependencies": [
     "@trufflesuite/bigint-buffer",
     "keccak",
     "leveldown",

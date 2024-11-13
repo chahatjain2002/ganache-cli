@@ -90,6 +90,9 @@ const config: webpack.Configuration = merge({}, base, {
         use: "shebang-loader"
       }
     ]
+  },
+  experiments: {
+    topLevelAwait: true
   }
 });
 

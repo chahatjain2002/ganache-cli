@@ -3,7 +3,8 @@
   "compilerOptions": {
     "outDir": "lib",
     "declarationDir": "typings",
-    "composite": true
+    "composite": true,
+    "esModuleInterop": true,
   },
   "include": [
     "index.ts",
